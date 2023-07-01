@@ -8,7 +8,6 @@ trigger:
 
 pool:
   name: LocalWin
-  demands: LETSLEARN-LAP
 
 steps:
 - script: echo Hello, world!
