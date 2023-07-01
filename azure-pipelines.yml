@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: Default
+  demands: LETSLEARN-LAP
 
 steps:
 - script: echo Hello, world!
