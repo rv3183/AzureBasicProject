@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: LocalWin
+  vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, world!
